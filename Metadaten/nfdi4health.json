@@ -1,0 +1,219 @@
+{
+  "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
+    "collection": [
+      "Robert Koch Institute"
+    ],
+    "descriptions": [
+      {
+        "language": "DE (German)",
+        "text": "Im Datensatz \"Daten des Übersterblichkeitsberichts\" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.\n\nZur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.\n\nDer Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen."
+      }
+    ],
+    "titles": [
+      {
+        "language": "DE (German)",
+        "text": "Daten des Übersterblichkeitsberichts"
+      }
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.17463782",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B",
+        "scheme": "DOI"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset",
+        "scheme": "URL"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "Mortalität",
+        "code": "http://id.nlm.nih.gov/mesh/D009026"
+      },
+      {
+        "label": "Mortality",
+        "code": "http://id.nlm.nih.gov/mesh/D009026"
+      },
+      {
+        "label": "Übersterblichkeit"
+      },
+      {
+        "label": "Excess Mortality"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
+      },
+      {
+        "label": "Public Health Surveillance",
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
+      },
+      {
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
+      },
+      {
+        "label": "Germany",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
+      },
+      {
+        "label": "Offene Daten"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "Epidemiologie",
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
+      },
+      {
+        "label": "Epidemiology",
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
+      },
+      {
+        "label": "RKI"
+      }
+    ],
+    "languages": [
+      "DE (German)"
+    ],
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
+        },
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "version": "2026-01-21"
+    },
+    "webpage": "https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts",
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut | Fachgebiet 32"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Researcher",
+          "givenName": "Benedikt",
+          "familyName": "Zacher",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6107-6389",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut | Fachgebiet 32"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Researcher",
+          "givenName": "Andreas",
+          "familyName": "Hicketier",
+          "identifiers": [
+            {
+              "identifier": "0009-0000-5882-852X",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut | Fachgebiet 32"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Researcher",
+          "givenName": "Alexander",
+          "familyName": "Ullrich",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-4894-6124",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut | Fachgebiet 32"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Project leader",
+          "givenName": "Michaela",
+          "familyName": "Diercke",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-4678-1813",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut | Fachgebiet 34"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Researcher",
+          "givenName": "Matthias",
+          "familyName": "an der Heiden",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-5863-4549",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
+          }
+        ],
+        "nameType": "Organisational",
+        "organisational": {
+          "name": "Robert Koch-Institut",
+          "type": "Creator/Author"
+        }
+      }
+    ]
+  }
+}

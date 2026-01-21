@@ -1,0 +1,110 @@
+{
+  "fields": [
+    {
+      "name": "Wochendatum",
+      "type": "date",
+      "description": "Datum (Sonntag) der Sterbewoche",
+      "format": "%Y-%m-%d",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "Gruppe",
+      "type": "string",
+      "description": "Stratifizierung nach Region (Deutschland, Bundesländer), Altersgruppen und Sterbeort (Krankenhäuser, Alten- und Pfelgeheime und andere Adressen)",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true,
+        "enum": [
+          "0-14 Jahre",
+          "15-44 Jahre",
+          "45-64 Jahre",
+          "65-74 Jahre",
+          "75-84 Jahre",
+          "85+ Jahre",
+          "Alten- und Pflegeheime",
+          "Andere Sterbeorte",
+          "Baden-Württemberg",
+          "Bayern",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Deutschland",
+          "Hamburg",
+          "Hessen",
+          "Krankenhäuser",
+          "Mecklenburg-Vorpommern",
+          "Niedersachsen",
+          "Nordrhein-Westfalen",
+          "Rheinland-Pfalz",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Thüringen"
+        ]
+      },
+      "example": "45-64 Jahre"
+    },
+    {
+      "name": "Sterbefallzahl",
+      "type": "integer",
+      "description": "Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true,
+        "minimum": 0
+      },
+      "example": "2032"
+    },
+    {
+      "name": "Erwartete_Sterbefahllzahl",
+      "type": "number",
+      "description": "Erwartete Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true,
+        "minimum": 0
+      },
+      "example": "2109.17949033554"
+    },
+    {
+      "name": "zscore",
+      "type": "number",
+      "description": "Der z-score gibt an, wie weit ein Wert vom Durchschnitt entfernt ist, gemessen in Standardabweichungen. ",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true
+      },
+      "example": "-1.23644832483487"
+    },
+    {
+      "name": "Hochrechnung",
+      "type": "string",
+      "description": "\"ja\" falls die Sterbefallzahl hochgerechnet, also für den Meldeverzug korrigiert, wurde. \"nein\" andernfalls.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "required": true,
+        "enum": [
+          "ja",
+          "nein"
+        ]
+      },
+      "example": "nein"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "title": "Daten des Übersterblichkeitsberichts",
+  "description": "<p>Im Datensatz „Daten des Übersterblichkeitsberichts“ des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.</p>\n<p>Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.</p>\n<p>Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>\n",
+  "resource_type": {
+    "id": "dataset"
+  },
+  "publication_date": "2025-12-05",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Robert Koch-Institut"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Zacher",
+        "given_name": "Benedikt",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-6107-6389"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut | Fachgebiet 32"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Hicketier",
+        "given_name": "Andreas",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0009-0000-5882-852X"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut | Fachgebiet 32"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Ullrich",
+        "given_name": "Alexander",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4894-6124"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut | Fachgebiet 32"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Diercke",
+        "given_name": "Michaela",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4678-1813"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut | Fachgebiet 32"
+        }
+      ],
+      "role": {
+        "id": "projectleader"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "an der Heiden",
+        "given_name": "Matthias",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0001-5863-4549"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut | Fachgebiet 34"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2025-12-05",
+  "dates": [
+    {
+      "date": "2025-12-05T15:13:28+01:00",
+      "type": {
+        "id": "created"
+      },
+      "description": "Date when the dataset was created"
+    }
+  ],
+  "languages": [
+    {
+      "id": "deu"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto"
+      },
+      "identifier": "https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts",
+      "resource_type": {
+        "id": "dataset"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Mortalität"
+    },
+    {
+      "subject": "Mortality"
+    },
+    {
+      "subject": "Übersterblichkeit"
+    },
+    {
+      "subject": "Excess Mortality"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Public Health Surveillance"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "Germany"
+    },
+    {
+      "subject": "Offene Daten"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "RKI"
+    }
+  ],
+  "custom_fields": {
+    "legacy:communities": [
+      "robertkochinstitut"
+    ]
+  }
+}

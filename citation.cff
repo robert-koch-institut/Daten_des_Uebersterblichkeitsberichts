@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: dataset
 title: Daten des Übersterblichkeitsberichts
 abstract: >-
-  Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert
+  Im Datensatz &quot;Daten des Übersterblichkeitsberichts&quot; des Robert
   Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland
   bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur
   jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede
@@ -18,7 +18,7 @@ abstract: >-
   Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in
   Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen
   Sterbefallzahlen in den betrachteten Gruppen.
-date-released: '2026-01-21'
+date-released: '2026-01-28'
 keywords:
   - Mortalität
   - Mortality
@@ -36,7 +36,7 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts
 license: CC-BY-4.0
-doi: 10.5281/zenodo.17463782
-version: '2026-01-21T16:48:18+01:00'
+doi: 10.5281/zenodo.18400593
+version: '2026-01-26T00:00:00+01:00'
 authors:
   - name: Robert Koch-Institut

@@ -1,6 +1,6 @@
 {
   "title": "Daten des Übersterblichkeitsberichts",
-  "description": "<p>Im Datensatz „Daten des Übersterblichkeitsberichts“ des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.</p>\n<p>Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.</p>\n<p>Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>\n",
+  "description": "<p>Im Datensatz &quot;Daten des Übersterblichkeitsberichts&quot; des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.</p>\n<p>Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.</p>\n<p>Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>\n",
   "creators": [
     {
       "name": "Robert Koch-Institut",
@@ -50,10 +50,12 @@
     "Germany",
     "Offene Daten",
     "Open Data",
+    "Epidemiologie",
+    "Epidemiology",
     "RKI"
   ],
-  "publication_date": "2025-12-05",
-  "version": "2025-12-05",
+  "publication_date": "2026-02-18",
+  "version": "2026-02-16",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -66,8 +68,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2025-12-05T15:13:28+01:00",
-      "end": "2025-12-05T15:13:28+01:00",
+      "start": "2026-02-16T00:00:00+01:00",
+      "end": "2026-02-16T00:00:00+01:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }

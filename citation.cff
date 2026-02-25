@@ -18,7 +18,7 @@ abstract: >-
   Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in
   Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen
   Sterbefallzahlen in den betrachteten Gruppen.
-date-released: '2026-02-18'
+date-released: '2026-02-25'
 keywords:
   - Mortalität
   - Mortality
@@ -36,7 +36,7 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts
 license: CC-BY-4.0
-doi: 10.5281/zenodo.18679436
-version: '2026-02-16T00:00:00+01:00'
+doi: 10.5281/zenodo.18769509
+version: '2026-02-23T00:00:00+01:00'
 authors:
   - name: Robert Koch-Institut

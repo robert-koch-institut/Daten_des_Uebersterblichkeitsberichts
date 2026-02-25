@@ -25,13 +25,15 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18679436](https://doi.org/10.5281/zenodo.18679436)
+<!-- CITATION_END -->
+
 
 <br>
 
-
 **Zusammenfassung**    
-Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.
+Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.
 
 <br>
 
@@ -55,7 +57,7 @@ Im Rahmen der Mortalitätssurveillance werden nach § 5b BevStatG dieser Datensa
 
 Der Bericht zur Übersterblichkeit in Deutschland ist verfügbar unter:    
 
-> Robert Koch-Institut. (2025). Bericht zur Übersterblichkeit in Deutschland. Zenodo. [https://doi.org/10.5281/zenodo.17608501](https://doi.org/10.5281/zenodo.17608501)
+> Robert Koch-Institut. (2026). Bericht zur Übersterblichkeit in Deutschland. Zenodo. [https://doi.org/10.5281/zenodo.17608501](https://doi.org/10.5281/zenodo.17608501)
 
 
 ### Administrative und organisatorische Angaben  
@@ -92,17 +94,18 @@ Der Datensatz enthält wöchentliche Informationen zur Sterblichkeit in Deutschl
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "daten_uebersterblichkeitsbericht", "lang": "de"} -->
 
 Die Datei [daten_uebersterblichkeitsbericht.tsv](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/daten_uebersterblichkeitsbericht.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_daten_uebersterblichkeitsbericht.json](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/Metadaten/schemas/tableschema_daten_uebersterblichkeitsbericht.json) hinterlegt:
+
 > [tableschema_daten_uebersterblichkeitsbericht.json](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/Metadaten/schemas/tableschema_daten_uebersterblichkeitsbericht.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                  | Typ     | Ausprägungen                                                                                                                                                                       | Beschreibung                                                                                                                                     |
-|:--------------------------|:--------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wochendatum               | date    | Format: `YYYY-MM-DD`<br>Fehlende Werte:<br>`NA`                                                                                                                                    | Datum (Sonntag) der Sterbewoche                                                                                                                  |
-| Gruppe                    | string  | Werte:<br>`0-14 Jahre`, `15-44 Jahre`, `45-64 Jahre`, `65-74 Jahre`, `75-84 Jahre`, `85+ Jahre`, `Alten- und Pflegeheime`, …<br>Beispiel: `45-64 Jahre`<br>Fehlende Werte:<br>`NA` | Stratifizierung nach Region (Deutschland, Bundesländer), Altersgruppen und Sterbeort (Krankenhäuser, Alten- und Pfelgeheime und andere Adressen) |
-| Sterbefallzahl            | integer | Werte: `≥0`<br>Beispiel: `2032`<br>Fehlende Werte:<br>`NA`                                                                                                                         | Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe                                                                                       |
-| Erwartete_Sterbefahllzahl | number  | Werte: `≥0`<br>Beispiel: `2109.17949033554`<br>Fehlende Werte:<br>`NA`                                                                                                             | Erwartete Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe                                                                             |
-| zscore                    | number  | Beispiel: `-1.23644832483487`<br>Fehlende Werte:<br>`NA`                                                                                                                           | Der z-score gibt an, wie weit ein Wert vom Durchschnitt entfernt ist, gemessen in Standardabweichungen.                                          |
-| Hochrechnung              | string  | Werte:<br>`ja`, `nein`<br>Beispiel: `nein`<br>Fehlende Werte:<br>`NA`                                                                                                              | "ja" falls die Sterbefallzahl hochgerechnet, also für den Meldeverzug korrigiert, wurde. "nein" andernfalls.                                     |
+| Variable                  | Typ     | Ausprägungen                                                                                                                                                                          | Beschreibung                                                                                                                                     |
+|:--------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wochendatum               | date    | Format:<br>`YYYY-MM-DD`<br>Fehlende Werte:<br>`NA`                                                                                                                                    | Datum (Sonntag) der Sterbewoche                                                                                                                  |
+| Gruppe                    | string  | Werte:<br>`0-14 Jahre`, `15-44 Jahre`, `45-64 Jahre`, `65-74 Jahre`, `75-84 Jahre`, `85+ Jahre`, `Alten- und Pflegeheime`, …<br>Beispiel:<br>`45-64 Jahre`<br>Fehlende Werte:<br>`NA` | Stratifizierung nach Region (Deutschland, Bundesländer), Altersgruppen und Sterbeort (Krankenhäuser, Alten- und Pfelgeheime und andere Adressen) |
+| Sterbefallzahl            | integer | Werte:<br>`≥0`<br>Beispiel:<br>`2032`<br>Fehlende Werte:<br>`NA`                                                                                                                      | Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe                                                                                       |
+| Erwartete_Sterbefahllzahl | number  | Werte:<br>`≥0`<br>Beispiel:<br>`2109.17949033554`<br>Fehlende Werte:<br>`NA`                                                                                                          | Erwartete Anzahl der Verstorbenen in der jeweiligen Woche und Gruppe                                                                             |
+| zscore                    | number  | Beispiel:<br>`-1.23644832483487`<br>Fehlende Werte:<br>`NA`                                                                                                                           | Der z-score gibt an, wie weit ein Wert vom Durchschnitt entfernt ist, gemessen in Standardabweichungen.                                          |
+| Hochrechnung              | string  | Werte:<br>`ja`, `nein`<br>Beispiel:<br>`nein`<br>Fehlende Werte:<br>`NA`                                                                                                              | "ja" falls die Sterbefallzahl hochgerechnet, also für den Meldeverzug korrigiert, wurde. "nein" andernfalls.                                     |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -112,12 +115,10 @@ Die Datei [daten_uebersterblichkeitsbericht.tsv](https://github.com/robert-koch-
 Die Daten sind im Datensatz als Tab-separierte .tsv-Datei enthalten. Der verwendete Zeichensatz ist UTF-8.  
 
 * Zeichensatz: UTF-8  
-* .tsv-Trennzeichen: Tab \"\\t\"  
+* .tsv-Trennzeichen: Tab `\t` 
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -125,7 +126,7 @@ Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten b
 
 > [Metadaten/](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts/blob/main/Metadaten/zenodo.json)  
 
@@ -162,13 +163,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
 
 
- 
+
 ### Lizenz  
 
 Der Datensatz "Daten des Übersterblichkeitsberichts" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  

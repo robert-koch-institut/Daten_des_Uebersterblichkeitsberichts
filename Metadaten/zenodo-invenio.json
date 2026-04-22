@@ -1,16 +1,27 @@
 {
   "title": "Daten des Übersterblichkeitsberichts",
-  "description": "<p>Im Datensatz &quot;Daten des Übersterblichkeitsberichts&quot; des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.</p>\n<p>Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.</p>\n<p>Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>\n",
+  "description": "<p>Im Datensatz \"Daten des Übersterblichkeitsberichts\" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2026-04-15",
+  "publication_date": "2026-04-22",
   "creators": [
     {
       "person_or_org": {
         "type": "organizational",
-        "name": "Robert Koch-Institut"
-      }
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Bundesministerium für Gesundheit (BMG)"
+        }
+      ]
     }
   ],
   "contributors": [
@@ -28,7 +39,8 @@
       },
       "affiliations": [
         {
-          "name": "Robert Koch-Institut | Fachgebiet 32"
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
         }
       ],
       "role": {
@@ -49,7 +61,8 @@
       },
       "affiliations": [
         {
-          "name": "Robert Koch-Institut | Fachgebiet 32"
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
         }
       ],
       "role": {
@@ -70,7 +83,8 @@
       },
       "affiliations": [
         {
-          "name": "Robert Koch-Institut | Fachgebiet 32"
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
         }
       ],
       "role": {
@@ -91,7 +105,8 @@
       },
       "affiliations": [
         {
-          "name": "Robert Koch-Institut | Fachgebiet 32"
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
         }
       ],
       "role": {
@@ -112,7 +127,8 @@
       },
       "affiliations": [
         {
-          "name": "Robert Koch-Institut | Fachgebiet 34"
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
         }
       ],
       "role": {
@@ -121,10 +137,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2026-04-15",
+  "version": "2026-04-22",
   "dates": [
     {
-      "date": "2026-04-13T00:00:00+02:00",
+      "date": "2026-04-20T00:00:00+02:00",
       "type": {
         "id": "created"
       },
@@ -173,22 +189,22 @@
       "subject": "Public Health Surveillance"
     },
     {
-      "subject": "Deutschland"
-    },
-    {
       "subject": "Germany"
     },
     {
-      "subject": "Offene Daten"
+      "subject": "Deutschland"
     },
     {
       "subject": "Open Data"
     },
     {
-      "subject": "Epidemiologie"
+      "subject": "Offene Daten"
     },
     {
       "subject": "Epidemiology"
+    },
+    {
+      "subject": "Epidemiologie"
     },
     {
       "subject": "RKI"

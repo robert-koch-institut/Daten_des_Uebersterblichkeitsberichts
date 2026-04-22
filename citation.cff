@@ -1,24 +1,17 @@
 cff-version: 1.2.0
 type: dataset
 title: Daten des Übersterblichkeitsberichts
-abstract: >-
-  Im Datensatz &quot;Daten des Übersterblichkeitsberichts&quot; des Robert
-  Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland
-  bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur
-  jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede
-  Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten
-  Sterbefallzahlen gegenübergestellt.
-
-
-  Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter
-  Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen
-  Übersterblichkeit genutzt wird.
-
-
-  Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in
-  Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen
-  Sterbefallzahlen in den betrachteten Gruppen.
-date-released: '2026-04-15'
+abstract: Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert Koch-Instituts
+  werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der
+  Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen,
+  Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den
+  modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen
+  zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet,
+  der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz
+  dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht
+  die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten
+  Gruppen.
+date-released: '2026-04-22'
 keywords:
   - Mortalität
   - Mortality
@@ -26,17 +19,19 @@ keywords:
   - Excess Mortality
   - Gesundheitsberichterstattung
   - Public Health Surveillance
-  - Deutschland
   - Germany
-  - Offene Daten
+  - Deutschland
   - Open Data
-  - Epidemiologie
+  - Offene Daten
   - Epidemiology
+  - Epidemiologie
   - RKI
 message: Cite me!
 url: https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19591148
-version: '2026-04-13T00:00:00+02:00'
+doi: 10.5281/zenodo.19692015
+version: '2026-04-20T00:00:00+02:00'
 authors:
   - name: Robert Koch-Institut
+    email: info@rki.de
+    website: https://www.rki.de/

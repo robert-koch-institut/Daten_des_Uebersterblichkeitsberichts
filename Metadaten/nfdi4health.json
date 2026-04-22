@@ -9,7 +9,7 @@
     "descriptions": [
       {
         "language": "DE (German)",
-        "text": "Im Datensatz \"Daten des Übersterblichkeitsberichts\" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt.\n\nZur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird.\n\nDer Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen."
+        "text": "Im Datensatz \"Daten des Übersterblichkeitsberichts\" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen."
       }
     ],
     "titles": [
@@ -20,15 +20,15 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19591148",
+        "identifier": "10.5281/zenodo.19692015",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
         "identifier": "https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts",
-        "relationType": "A references B",
         "typeGeneral": "Dataset",
+        "relationType": "A references B",
         "scheme": "URL"
       }
     ],
@@ -59,25 +59,25 @@
         "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
-        "label": "Deutschland",
-        "code": "http://id.nlm.nih.gov/mesh/D005858"
-      },
-      {
         "label": "Germany",
         "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
-        "label": "Offene Daten"
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
         "label": "Open Data"
       },
       {
-        "label": "Epidemiologie",
-        "code": "http://id.nlm.nih.gov/mesh/D004813"
+        "label": "Offene Daten"
       },
       {
         "label": "Epidemiology",
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
+      },
+      {
+        "label": "Epidemiologie",
         "code": "http://id.nlm.nih.gov/mesh/D004813"
       },
       {
@@ -97,17 +97,35 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-13"
+      "version": "2026-04-22"
     },
     "webpage": "https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts",
     "contributors": [
       {
+        "nameType": "Organisational",
         "affiliations": [
           {
-            "name": "Robert Koch-Institut | Fachgebiet 32"
+            "name": "Bundesministerium für Gesundheit (BMG)"
           }
         ],
+        "organisational": {
+          "name": "Robert Koch-Institut",
+          "type": "Creator/Author"
+        }
+      },
+      {
         "nameType": "Personal",
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
+          }
+        ],
         "personal": {
           "type": "Researcher",
           "givenName": "Benedikt",
@@ -121,12 +139,18 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
-            "name": "Robert Koch-Institut | Fachgebiet 32"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Researcher",
           "givenName": "Andreas",
@@ -140,12 +164,18 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
-            "name": "Robert Koch-Institut | Fachgebiet 32"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Researcher",
           "givenName": "Alexander",
@@ -159,12 +189,18 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
-            "name": "Robert Koch-Institut | Fachgebiet 32"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Project leader",
           "givenName": "Michaela",
@@ -178,25 +214,7 @@
         }
       },
       {
-        "affiliations": [
-          {
-            "name": "Robert Koch-Institut | Fachgebiet 34"
-          }
-        ],
         "nameType": "Personal",
-        "personal": {
-          "type": "Researcher",
-          "givenName": "Matthias",
-          "familyName": "an der Heiden",
-          "identifiers": [
-            {
-              "identifier": "0000-0001-5863-4549",
-              "scheme": "ORCID"
-            }
-          ]
-        }
-      },
-      {
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -208,10 +226,16 @@
             ]
           }
         ],
-        "nameType": "Organisational",
-        "organisational": {
-          "name": "Robert Koch-Institut",
-          "type": "Creator/Author"
+        "personal": {
+          "type": "Researcher",
+          "givenName": "Matthias",
+          "familyName": "an der Heiden",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-5863-4549",
+              "scheme": "ORCID"
+            }
+          ]
         }
       }
     ],

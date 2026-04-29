@@ -3,9 +3,6 @@
     "classification": {
       "type": "Dataset"
     },
-    "collection": [
-      "Robert Koch Institute"
-    ],
     "descriptions": [
       {
         "language": "DE (German)",
@@ -20,7 +17,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19692015",
+        "identifier": "10.5281/zenodo.19880973",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -97,7 +94,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-22"
+      "version": "2026-04-29"
     },
     "webpage": "https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts",
     "contributors": [

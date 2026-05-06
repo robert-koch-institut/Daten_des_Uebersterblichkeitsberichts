@@ -17,7 +17,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19880973",
+        "identifier": "10.5281/zenodo.20049901",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -94,7 +94,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-29"
+      "version": "2026-05-06"
     },
     "webpage": "https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts",
     "contributors": [

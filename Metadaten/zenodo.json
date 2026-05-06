@@ -64,8 +64,8 @@
     "RKI"
   ],
   "subjects": [],
-  "publication_date": "2026-04-29",
-  "version": "2026-04-27",
+  "publication_date": "2026-05-06",
+  "version": "2026-05-04",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts",
@@ -80,8 +80,8 @@
   ],
   "dates": [
     {
-      "start": "2026-04-27T00:00:00+02:00",
-      "end": "2026-04-27T00:00:00+02:00",
+      "start": "2026-05-04T00:00:00+02:00",
+      "end": "2026-05-04T00:00:00+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }

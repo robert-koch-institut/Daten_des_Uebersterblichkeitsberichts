@@ -11,7 +11,7 @@ abstract: Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert Koch-I
   dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht
   die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten
   Gruppen.
-date-released: '2026-04-29'
+date-released: '2026-05-06'
 keywords:
   - Mortalität
   - Mortality
@@ -29,8 +29,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19880973
-version: '2026-04-27T00:00:00+02:00'
+doi: 10.5281/zenodo.20049901
+version: '2026-05-04T00:00:00+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de

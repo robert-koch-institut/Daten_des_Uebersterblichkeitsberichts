@@ -26,7 +26,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.20523857](https://doi.org/10.5281/zenodo.20523857)
+Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.20624089](https://doi.org/10.5281/zenodo.20624089)
 <!-- CITATION_END -->
 
 

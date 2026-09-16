@@ -1,0 +1,24 @@
+TY  - DATA
+AB  - Im Datensatz "Daten des Übersterblichkeitsberichts" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.
+AU  - Robert Koch-Institut
+DA  - 2026-09-16
+DO  - 10.5281/zenodo.22791661
+KW  - Mortalität
+KW  - Mortality
+KW  - Übersterblichkeit
+KW  - Excess Mortality
+KW  - Gesundheitsberichterstattung
+KW  - Public Health Surveillance
+KW  - Germany
+KW  - Deutschland
+KW  - Open Data
+KW  - Offene Daten
+KW  - Epidemiology
+KW  - Epidemiologie
+KW  - RKI
+PY  - 2026
+TI  - Daten des Übersterblichkeitsberichts
+UR  - https://robert-koch-institut.github.io/Daten_des_Uebersterblichkeitsberichts
+ET  - 2026-09-16
+N1  - License: CC-BY-4.0
+ER  -
